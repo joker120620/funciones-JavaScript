@@ -45,4 +45,7 @@ const sumar3=(a,b) =>{
 sumar3(2,3);
 //---------------------------------------------------------------
 //un ejemplo de lo anterior
-let numero=prompt("Digite un numero");
+let numero=+prompt("Digite un numero");
+for(let i=1;i<=9;i++){
+    document.write(`${numero}x${i}=${numero*i} <br>`);
+}
