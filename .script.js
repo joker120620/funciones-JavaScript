@@ -20,3 +20,29 @@ for (let ele of number){
 //---------------------------------------------------------------
 //imprimir cada letra
 //---------------------------------------------------------------
+//---------------------------------------------------------------
+//---------------------------------------------------------------
+//funciones declaradas
+function sumar(a,b) {
+    let suma=a+b;
+    console.log(suma);
+}
+sumar(1,2);
+//---------------------------------------------------------------
+//funcion expresada
+const sumar2= function(a,b){
+    let suma= a+b;
+    console.log(suma);
+
+}
+sumar2(1,2);
+//---------------------------------------------------------------
+//funcion flecha
+const sumar3=(a,b) =>{
+    let suma= a+b;
+    console.log(suma);
+}
+sumar3(2,3);
+//---------------------------------------------------------------
+//un ejemplo de lo anterior
+let numero=prompt("Digite un numero");
