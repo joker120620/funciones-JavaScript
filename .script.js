@@ -49,3 +49,14 @@ let numero=+prompt("Digite un numero");
 for(let i=1;i<=9;i++){
     document.write(`${numero}x${i}=${numero*i} <br>`);
 }
+// scope global
+function sumar4(a,b){
+    let result=a+b;
+    console.log(result);
+}
+function restar(a,b){
+    let result=a-b;
+    console.log(result);
+}
+sumar4(2,2);
+restar(3,2);
